@@ -27,7 +27,7 @@ finding_policy:
     - CKV_AWS_20
 
 advisor:
-  enabled: false
-  use_llm: false
+  enabled: true
+  use_llm: true
   max_findings: 5
   min_severity: moderate
