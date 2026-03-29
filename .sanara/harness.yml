@@ -1,0 +1,10 @@
+runs:
+  - name: aws
+    working_dir: terraform/aws
+    init:
+      backend: false
+      args:
+        - -input=false
+    validate:
+      args:
+        - -no-color
