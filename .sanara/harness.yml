@@ -1,6 +1,6 @@
 runs:
   - name: aws
-    working_dir: terraform/aws
+    working_dir: .
     init:
       backend: false
       args:
